@@ -5,7 +5,7 @@
 </head>
 <body>
     <div>
-        Facebook登入並取得用戶姓名、email：<input type="button" value="Facebook登入" onclick="GetProfile();" />
+        Facebook登入並取得用戶姓名、email：<input type="button" value="Facebook登入" onclick="FBLogin();" />
     </div>
     <div>
         <!--留意用戶的此頁，你的App會被移除：https://www.facebook.com/settings?tab=applications-->
@@ -33,7 +33,7 @@
                 appId: FB_appID,//FB appID
                 cookie: true,  // enable cookies to allow the server to access the session
                 xfbml: true,  // parse social plugins on this page
-                version: 'v4.0' // use graph api version
+                version: 'v13.0' // use graph api version
             });
             FB.AppEvents.logPageView();
 
@@ -80,18 +80,15 @@
 
             //FB.api()使用說明：https://developers.facebook.com/docs/javascript/reference/FB.api
             //取得用戶個資
-            FB.api("/me", "GET", { fields: 'name' }, function (user) {
+            FB.api("/me", "GET", { fields: 'id,name,email,groups' }, function (user) {
                 //user物件的欄位：https://developers.facebook.com/docs/graph-api/reference/user
-                // if (user.error) {
-                //   alert(user);
-                //     //console.log(response);
-                // } else {
-                //
-                //     document.getElementById('content').innerHTML = JSON.stringify(user);
-                // }
-                alert(user);
+                if (user.error) {
+                    console.log(response);
+                } else {
+                  let jsonString = JSON.stringify(user)
+                  document.getElementById('content').innerHTML = jsonString
+                }
             });
-
         }
     </script>
 
