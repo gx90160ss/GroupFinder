@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+「FB社團尋人工具」重視使用者隱私權保障，對於個人資料保護的尊重，在您開始使用本服務所提供的各項服務時，即表示您已閱讀、瞭解並已同意本工具之服務。當您使用或繼續使用本工具時，即推定您已閱讀、 瞭解並同意接受本約定之所有內容及其後修改變更。
 
-You can use the [editor on GitHub](https://github.com/gx90160ss/GroupFinder/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+個人資料蒐集目的： 本工具是專為FB使用者搜尋社團貼文，收集您使用FB時之基本個人資料，社團清單等功能以便提供更好的使用體驗。除此之外，不做其他用途。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+個人資料蒐集、利用 的期間及範圍： (1) 期間：自您開始使用本工具起，直至您不願意使用本工具所提供支服務為止。 (2) 對象：本工具使用者以及業務合作夥伴。
 
-### Markdown
+您可主張的權利行使種類及方式： 以電郵方式向個人資訊諮詢窗口： gx90160ss@gmail.com 連絡提出。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gx90160ss/GroupFinder/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+4.法令之遵守、隱私權政策之修訂 為了更確實執行個人資訊的保護，本工具得隨時修訂隱私權政策。
